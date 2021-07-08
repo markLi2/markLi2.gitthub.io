@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MyBrand</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400&family=Lekton&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<header class="header">
+		<div class="row">
+			<div class="logo_row">MyBrand</div>
+			<div class="container">
+				<ul>
+					<li><a href="#">контакты</a></li>
+					<li><a href="#">доставка</a></li>
+					<li><a href="#">каталог</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="head-h1">Онлайн магазин<br>мужской одежды</div>
+		<div class="head-h1-small">досткавка по всему Казахстану</div>
+	</header>
+	<div class="row-class">
+		<ul>
+			<li><a href="#">Мужское</a></li>
+			<li><a href="#">Женское</a></li>
+			<li><a href="#">Аксессуары</a></li>
+		</ul>
+		<div class="row-basket">
+			0
+		</div>
+	</div>
+	<div class="catalog">
+		<div class="catalog-product">
+			<div class="catalog-up">
+				<div class="product_MSGM">
+				<a class="MSGM-a" href="#">
+					<img class="MSGM-img" src="img/foot.jpg">
+					<h1 class="MSGM-h1">MSGM</h1>
+					<p class="MSGM-p">Женская толстовка Micrologo Hoodie</p>
+				</a>
+			</div>
+			<div class="product_Patagonia">
+				<a class="Patagonia-a" href="#">
+					<img class="Patagonia-img" src="img/foot-black.jpg">
+					<h1 class="Patagonia-h1">Patagonia</h1>
+					<p class="Patagonia-p">Мужская толстовка P-6 Logo Uprisal Hoodie</p>
+				</a>
+			</div>
+			<div class="product_Polo_Ralph-Lauren">
+				<a class="Polo-a" href="#">
+					<img class="Polo-img" src="img/shot.jpg">
+					<h1 class="Polo-h1">Polo Ralph Lauren</h1>
+					<p class="Polo-p">Мужская толстовка The Iconic Bear Magic Fleece</p>
+				</a>
+			</div>
+			</div>
+			<div class="catalog-down">
+			<div class="product_The_North_Face">
+				<a class="North-a" href="#">
+					<img class="North-img" src="img/kurt.jpg">
+					<h1 class="North-h1">The North Face</h1>
+					<p class="North-p">Куртка</p>
+				</a>
+			</div>
+			<div class="product_adidas_Originals">
+				<a class="adidas-a" href="#">
+					<img class="adidas-img" src="img/shot2.jpg">
+					<h1 class="adidas-h1">adidas Originals</h1>
+					<p class="adidas-p">Мужская толстовка x Disney Yoda Hoodie</p>
+				</a>
+			</div>
+			<div class="product-Weekend-Offender">
+				<a class="Weekend-a" href="#">
+					<img class="Weekend-img" src="img/psss2101-navy-0.jpg">
+					<h1 class="Weekend-h1">Weekend Offender</h1>
+					<p class="Weekend-p">Мужская толстовка Jeans</p>
+				</a>
+			</div>
+			</div>
+		</div>
+	</div>
+	 <div id="map-container">
+      <div id="locations-panel">
+        <div id="locations-panel-list">
+          <div class="section-name" id="location-results-section-name">
+            All locations
+          </div>
+          <div class="results">
+            <ul id="location-results-list"></ul>
+          </div>
+        </div>
+      </div>
+      <div id="map"></div>
+    </div>
+    <div class="contacts">
+    	<div class="contacts-container">
+    		<div class="contacts-h1">Контакты</div>
+    		<div class="contacts-city">г.Нур-Султан</div>
+    		<a href="https://instagram.com" class="contacts-instagram">
+    			<img class="instagram" src="img/instagram.svg">
+    			@MyBrand_astana
+    		</a>
+    		<div class="block">
+    			<div class="contacts-block">
+    			<a href="#" class="adress"><img class="adress-img" src="img/geo-fill.svg">пр. Туран 37</a><br><br>
+    			<a href="tel:87006812584" class="telephone"><img class="telephone-img" src="img/telephone-fill.svg">8 (700) 681-25-84</a><br><br>
+    			<a href="#" class="time"><img class="time-img" src="img/hourglass-split.svg">ежедновно с 9:00 до 22:00</a><br><br>
+    		</div>
+    		<div class="contacts-blocks">
+    			<a href="#" class="adress"><img class="adress-img" src="img/geo-fill.svg">пр. Туран 37</a><br><br>
+    			<a href="tel:87006812584" class="telephone"><img class="telephone-img" src="img/telephone-fill.svg">8 (700) 681-25-84</a><br><br>
+    			<a href="#" class="time"><img class="time-img" src="img/hourglass-split.svg">ежедновно с 9:00 до 22:00</a><br><br>
+    		</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="footer">
+    	<p class="footer-p">© 2021 My brand. <a class="footer-a" href="#">Все права защищены </a></p>
+    </div>
+<script src="index.js"></script>
+<script id="locator-result-items-tmpl" type="text/x-handlebars-template">
+      {{#each locations}}
+        <li class="location-result" data-location-index="{{index}}">
+          <button class="select-location">
+            <h2 class="name">{{title}}</h2>
+          </button>
+          <div class="address">{{address1}}<br>{{address2}}</div>
+        </li>
+      {{/each}}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAz9Dtzm_3FNlaID7TPYg4W26qdPKY8mzg&callback=initMap&libraries=places&channel=GMPSB_locatorplus_v2_c" async defer></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="https://www.gstatic.com/external_hosted/handlebars/v4.7.6/handlebars.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAz9Dtzm_3FNlaID7TPYg4W26qdPKY8mzg&callback=initMap&libraries=places&channel=GMPSB_locatorplus_v2_c" async defer></script>
+</body>
+</html>

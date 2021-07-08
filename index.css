@@ -1,0 +1,449 @@
+* {padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width: 100%;font-size: 100%;line-height:1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea {font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul,li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400&family=Lekton&family=Open+Sans:wght@300;400;700&display=swap');
+
+.header {
+	position:absolute;
+	width:1905px;
+	height: 1250px;
+	background-image: url("img/head.png");
+}
+.row {
+	position: relative;
+	width: 1500px;
+	height: 130px;
+	margin: 0 auto;
+}
+.logo_row {
+	position: relative;
+	width: 228px;
+	height: 65px;
+	font-size: 50px;
+	top: 61px;
+	font-family: Lekton;
+}
+.container {
+	position: relative;
+	width: 865px;
+	height: 44px;
+	top: 71px;
+	left: 190px;
+}
+.container ul {
+	display: flex;
+	width: 865px;
+	justify-content: flex-end;
+}
+.container li {
+	margin-left: 105px;
+}
+.container ul li a {
+	color: #262626;
+	font-size: 24px;
+	font-family: "Open Sans";
+}
+.head-h1 {
+	position: relative;
+	top: 308px;
+	left: 215px;
+	font-size: 63px;
+	width: 586px;
+	font-family: "Open Sans";
+	font-weight: 900;
+}
+.head-h1-small {
+	position: relative;
+	font-size: 35px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	width: 509px;
+	top: 337px;
+	left: 222px;
+}
+.row-class {
+	position: absolute;
+	background: #000;
+	width: 1905px;
+	height: 100px;
+	top: 1250px;
+}
+.row-class ul {
+	position: relative;
+	width: 673px;
+	display: flex;
+	top: 37px;
+	left: 193px;
+}
+.row-class li {
+	margin-right: 97px;
+}
+.row-class ul li a {
+	font-size: 27px;
+	font-family: "Open Sans";
+	font-weight: 400;
+	color: #fff;
+}
+.row-basket {
+	position: relative;
+	left: 1539px;
+	width: 22px;
+	height: 36px;
+	color: #fff;
+	font-size: 36px;
+	top: -5px;
+	font-family: Lekton;
+}
+.catalog {
+	position: absolute;
+    top: 1416px;
+    width: 1513px;
+    left: 207px;
+}
+.catalog-product {
+}
+.catalog-up {
+	position: absolute;
+	display: flex;
+	width: 1515px;
+}
+.product_MSGM {
+	position: relative;
+	width: 443px;
+	height: 545px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.25);
+}
+.product_Patagonia {
+	position: relative;
+	width: 443px;
+	left: 92px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.25);
+}
+.product_Polo_Ralph-Lauren {
+	position: relative;
+	width: 443px;
+	left: 184px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.25);
+}
+.product_The_North_Face {
+	position: relative;
+	width: 443px;
+	height: 545px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.25);
+}
+.product_adidas_Originals {
+	position: relative;
+	width: 443px;
+	left: 92px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.25);
+}
+.MSGM-a {
+}
+.MSGM-img {width: 443px;}
+.MSGM-h1 {color: #000;font-family: Farro;font-size: 40px;position: relative;left: 9px;top: 16px;font-weight: 400;width: 123px;height: 41px;margin: 0;}
+.MSGM-p {margin: 0;top: 26px;position: relative;left: 11px;font-size: 22px;font-family: "Open Sans";color: #000;font-weight: 400;width: 399px;}
+.Patagonia-a {
+}
+.Patagonia-img {width: 443px;}
+.Patagonia-h1 {color: #000;font-family: Farro;font-size: 40px;position: relative;left: 9px;top: 16px;font-weight: 400;width: 202px;height: 41px;margin: 0;}
+.Patagonia-p {margin: 0;top: 26px;position: relative;left: 11px;font-size: 20px;font-family: "Open Sans";color: #000;font-weight: 400;}
+.Polo-a {
+}
+.Polo-img {width: 443px;}
+.Polo-h1 {color: #000;font-family: Farro;font-size: 40px;position: relative;left: 9px;top: 16px;font-weight: 400;width: 348px;height: 41px;margin: 0;}
+.Polo-p {margin: 0;top: 26px;position: relative;left: 11px;font-size: 19px;font-family: "Open Sans";color: #000;font-weight: 400;}
+.catalog-down {
+	position: absolute;
+	top: 602px;
+	width: 1515px;
+	display: flex;
+}
+.North-a {
+}
+.North-img {width: 443px;height: 443px;}
+.North-h1 {color: #000;font-family: Farro;font-size: 40px;position: relative;left: 9px;top: 16px;font-weight: 400;width: 348px;height: 41px;margin: 0;}
+.North-p {margin: 0;top: 26px;position: relative;left: 11px;font-size: 20px;font-family: "Open Sans";color: #000;font-weight: 400;width: 70px;}
+.adidas-a {
+}
+.adidas-img {width: 443px;}
+.adidas-h1 {color: #000;font-family: Farro;font-size: 40px;position: relative;left: 9px;top: 16px;font-weight: 400;width: 348px;height: 41px;margin: 0;}
+.adidas-p {margin: 0;top: 26px;position: relative;left: 11px;font-size: 20px;font-family: "Open Sans";color: #000;font-weight: 400;}
+.product-Weekend-Offender {position: relative;width: 443px;left: 184px;box-shadow: 0 10px 15px rgba(0,0,0,0.25);}
+.Weekend-a {
+}
+.Weekend-img {width: 443px;}
+.Weekend-h1 {color: #000;font-family: Farro;font-size: 40px;position: relative;left: 9px;top: 16px;font-weight: 400;width: 368px;height: 41px;margin: 0;}
+.Weekend-p {margin: 0;top: 26px;position: relative;left: 11px;font-size: 20px;font-family: "Open Sans";color: #000;font-weight: 400;}
+
+.contacts {position: absolute;top: 3700px;left: 59px;width: 1800px;height: 600px;box-shadow: 0 10px 15px rgba(0,0,0,0.25);}
+.contacts-container {position: relative;}
+.contacts-h1 {position: relative;top: 155px;left: 194px;width: 233px;font-size: 50px;font-family: "Open Sans";}
+.contacts-city {position: relative;width: 150px;top: 164px;left: 200px;color: #707070;font-size: 19px;font-family: Lekton;}
+.contacts-instagram {position: relative;left: 1100px;top: 106px;font-size: 41px;font-family: Lekton;color: #000;}
+.instagram {
+	position: relative;
+	width: 46px;
+}
+.adress-img {width: 33px;}
+.telephone-img {width: 24px;position: relative;}
+.time-img {width: 30px;}
+.contacts-block {position: relative;left: 149px;width: 146px;top: 220px;height: 53px;}
+.adress {font-size: 30px;font-family: "Open Sans";color: #000;}
+.telephone {font-size: 30px;font-family: "Open Sans";color: #000;position: relative;left: 7px;}
+.time {font-size: 30px;font-family: "Open Sans";color: #000;position: relative;left: 0px;}
+.contacts-blocks {position: relative;left: 690px;top: 228px;}
+.block{
+	display: flex;
+}
+.footer {position: absolute;top: 4351px;background: #292929;width: 1905px;height: 100px;}
+.footer-p {color: #fff;position: relative;top: 41px;left: 783px;width: 394px;font-size: 20px;margin: 0;font-family: lekton;}
+.footer-a {
+	color: #fff;
+	font-family: "Open Sans";
+}
+
+#map-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	top: 2650px;
+}
+
+#map-container button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+#map {
+  position: absolute;
+  left: 22em;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+#locations-panel {
+    position: absolute;
+    left: 0;
+    width: 22em;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background: white;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 876px) {
+#map {
+  left: 0;
+  bottom: 50%;
+}
+#locations-panel {
+   top: 50%;
+   right: 0;
+     width: unset;
+   }
+}
+#locations-panel-list .section-name {
+   font-weight: 500;
+   font-size: 0.9em;
+   margin: 1.8em 0 1em 1.5em;
+}
+ #locations-panel-list .location-result {
+  position: relative;
+   padding: 0.8em 3.5em 0.8em 1.4em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+ #locations-panel-list .location-result:first-of-type {
+   border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+#locations-panel-list .location-result:last-of-type {
+  border-bottom: none;
+}
+#locations-panel-list .location-result.selected {
+ outline: 2px solid #4285f4;
+   }
+ #locations-panel-list button.select-location {
+     margin-bottom: 0.6em;
+ }
+  #locations-panel-list .location-result h2.name {
+     font-size: 1em;
+   font-weight: 500;
+   margin: 0;
+}
+#locations-panel-list .location-result .address {
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+#location-results-list {
+  list-style-type: none;
+  margin: 0;
+    padding: 0;
+     }
+
+
+@media screen and (max-width:1440px){
+
+}
+@media screen and (max-width:1024px){
+
+}
+@media screen and (max-width:768px){
+
+}
+@media screen and (max-width:425px){
+	
+}
+@media screen and (max-width:375px){
+	.header {position: absolute;width: 375px;height: 500px;background: url("img/mobile.png") no-repeat;}
+	.row {width: 375px;}
+	.row-class ul {width: 320px;position: relative;left: -6px;top: 41px;}
+	.logo_row {
+
+	}
+	.row-class li {margin: 0px 6px;}
+	.row-class ul li a {
+		font-size: 17px;
+	}
+.container {display: none;}
+.head-h1 {position: relative;left: 18px;top: 82px;font-size: 28px;width: 281px;color: #000;}
+.head-h1-small {width: 320px;font-size: 20px;left: 18px;top: 94px;color: #fff;}
+.row-class {position: absolute;width: 375px;top: 471px;}
+.row-basket {position: relative;left: 310px;top: 5px;}
+.catalog {
+}
+.catalog-product {
+    width: 50px;
+    height: 50px;
+}
+.catalog-up {position: relative;left: 0;top: 0;width: 50px;display: block;height: 50px;}
+.product_MSGM {
+	position: relative;
+	width: 320px;
+	height: 432px;
+	left: -177px;
+	top: -800px;
+}
+.product_Patagonia {
+	position: relative;
+	width: 320px;
+	height: 432px;
+	top: -754px;
+	left: -176px;
+}
+.product_Polo_Ralph-Lauren {
+	position: relative;
+	width: 320px;
+	height: 442px;
+	top: -711px;
+	left: -179px;
+}
+.product_The_North_Face  {
+	position: relative;
+	width: 320px;
+	height: 442px;
+	top: 29px;
+	left: -179px;
+}
+.product_adidas_Originals {
+	display: none;
+}
+.MSGM-a {
+}
+.MSGM-img {width: 320px;}
+.MSGM-h1 {font-size: 34px;}
+.MSGM-p {font-size: 16px;width: 293px;}
+.Patagonia-a {
+}
+.Patagonia-img {width: 320px;}
+.Patagonia-h1 {font-size: 32px;}
+.Patagonia-p {font-size: 13px;width: 275px;}
+.Polo-a {
+}
+.Polo-img {width: 320px;}
+.Polo-h1 {font-size: 28px;position: relative;top: 26px;width: 300px;}
+.Polo-p {font-size: 15px;}
+.catalog-down {display: block;width: 50px;height: 50px;}
+.North-a {
+}
+.North-img {width: 320px;height: 320px;}
+.North-h1 {font-size: 29px;width: 300px;}
+.North-p {
+}
+.adidas-a {
+}
+.adidas-img {
+}
+.adidas-h1 {
+}
+.adidas-p {
+}
+.product-Weekend-Offender {display: none;}
+.Weekend-a {
+}
+.Weekend-img {
+}
+.Weekend-h1 {
+}
+.Weekend-p {
+}
+.section-name {
+}
+.results {
+}
+.contacts {
+    width: 320px;
+    position: absolute;
+    left: 31px;
+    height: 434px;
+    top: 3166px;
+}
+.contacts-container {position: absolute;}
+.contacts-h1 {font-size: 40px;position: relative;left: 24px;top: 45px;}
+.contacts-city {position: relative;top: 56px;left: 1;left: 29px;}
+.contacts-instagram {
+}
+.instagram {
+}
+.block {
+}
+.contacts-block {
+    width: 147px;
+}
+.adress {font-size: 20px;position: relative;top: -150px;left: -115px;}
+.adress-img {width: 25px;position: relative;left: -7px;}
+.telephone {position: relative;top: -140px;left: -108px;font-size: 16px;}
+.telephone-img {width: 20px;position: relative;left: -10px;}
+.time {position: relative;top: -136px;left: -110px;font-size: 10px;}
+.time-img {position: relative;width: 24px;left: -9px;}
+.contacts-blocks {display: none;}
+.footer {position: absolute;width: 375px;top: 3629px;}
+.footer-p {font-size: 15px;position: relative;left: 40px;width: 300px;}
+.footer-a {
+}
+.container {
+	
+}
+@media screen and (max-width:320px){
+
+}
